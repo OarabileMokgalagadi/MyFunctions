@@ -12,7 +12,11 @@ def sum_array(array):
       >>> sum_array([96,6,0,3,12])
       117
 """"
-return sum(array)
+    if len(array) == 0:
+        return 0
+    else:
+        return sum_array(array[1:]) + array[0]
+
 
 
  def fibonacci(n):
