@@ -1,0 +1,22 @@
+Metadata-Version: 1.0
+Name: Hackathon-Project
+Version: 0.1
+Summary: My hackathon project
+Home-page: https://github.com/<oarabile96>/<Hackathon Project>
+Author: <Oarabile Mokgalagadi>
+Author-email: <oarabilemokgalagadi@g@gmail.com>
+License: MIT
+Description: #Hackathon project
+        This library is for recursion and sorting functions
+        
+        #building this package locally
+        'python setup.py sdist'
+        
+        ##installing this package from github
+        pip install git+https://github.com/oarabile96/hackathonProject-python-package.github
+        
+        
+        ###updating this package from github
+        pip install upgrade git+https://github.com/oarabile96/hackathonProject-python-package.github
+        
+Platform: UNKNOWN
